@@ -72,7 +72,7 @@
 }
 
 .btn.btn-primary:hover {
-    background: var(--bs-dark);
+    background: #b18e01;
 }
 
 .btn.btn-light {
