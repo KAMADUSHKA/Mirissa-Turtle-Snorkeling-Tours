@@ -200,6 +200,10 @@
         height: 700px;
         object-fit: cover;
     }
+
+    .navbar h4 {
+        font-family:cursive;
+    }
 }
 
 /* For medium screens (between 768px and 1199px) */
@@ -212,6 +216,7 @@
 
     .navbar h4 {
         font-size: large;
+        font-family:cursive;
     }
 }
 
@@ -246,6 +251,7 @@
 
     .navbar h4 {
         font-size: medium;
+        font-family:cursive;
     }
 }
 
