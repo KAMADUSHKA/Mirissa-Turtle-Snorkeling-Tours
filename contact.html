@@ -98,6 +98,25 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Structured Data (JSON-LD) - For SEO -->
+    <script type="application/ld+json">
+        {
+        "@context" : "https://schema.org",
+        "@type" : "WebSite",
+        "name" : "Mirissa Turtle Snorkeling Tours",
+        "alternateName" : "MTSA",
+        "url" : "https://mirissaturtlesnorkelingtours.com/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://mirissaturtlesnorkelingtours.com/search?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }
+        }
+    </script>
 </head>
 
 <body>
